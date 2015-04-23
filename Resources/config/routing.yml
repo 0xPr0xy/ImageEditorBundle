@@ -1,0 +1,4 @@
+imagecropperbundle_default:
+    resource: "@ImageEditorBundle/Controller/EditController.php"
+    type:     annotation
+    prefix:   /

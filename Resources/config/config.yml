@@ -1,0 +1,3 @@
+twig:
+    form_themes:
+        - 'ImageEditorBundle:Form:formWidgets.html.twig'

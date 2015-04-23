@@ -1,0 +1,30 @@
+{
+    "name": "pydev/imageeditor-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle to provide a Controller with capabilities to create all the liip imagine filters runtime. Also provides an EditableImagePagePart for Kunstmaan CMS",
+    "keywords": ["pydev", "kunstmaan", "cms", "pageparts", "liip", "imagine", "image", "crop", "runtime", "filter"],
+    "homepage": "https://www.pydev.nl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "0xPr0xy",
+            "homepage": "http://www.pydev.nl",
+            "email": "0xPr0xy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.3",
+        "kunstmaan/bundles-cms": "~3.0.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "PyDev\\ImageEditorBundle": "" }
+    },
+    "target-dir": "PyDev/ImageEditorBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
+}
